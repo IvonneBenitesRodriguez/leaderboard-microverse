@@ -5,8 +5,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [💻 Getting Started ](#-getting-started-)
+  - [� Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install ](#install-)
@@ -54,16 +53,6 @@ This project is mostly build in JavaScript.
 - **Understand the usage of JavaScript: Events, DOM manipulation, syntax, and Objects to store data**📍
 - **Understand the usage of ES6 JS Modules** how to **import and export** pieces of code to our main.js file 📍
 - **Understand how to install Webpack and Babel** and its importance.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-This is the live demo to <em>leaderboard-microverse</em>: <br/>
-
-- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
