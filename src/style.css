@@ -1,0 +1,44 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+header,h1{
+padding: 20px 47px;
+}
+section.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+div.info{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    align-items: start;
+    padding-bottom: 20px;
+}
+button{
+    padding: 6px 15px;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px gray;
+    border: 3px solid gray;
+    color: black;
+    font-size: 15px;
+    background-color: white;
+}
+.btn-score{
+    align-items: flex-end;
+    margin-left: 84px;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px gray;
+    border: 3px solid gray;
+} */
