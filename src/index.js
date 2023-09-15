@@ -1,30 +1,33 @@
-import PlayerCollection from './js/app.js';
-import AppPlayerCollection from './js/display.js';
 import './style.css';
 
-const playerCollection = new PlayerCollection();
-const appPlayerCollection = new AppPlayerCollection();
+import { listScore, display } from './js/app.js';
+import { addScore } from './js/display.js';
 
-appPlayerCollection.displayGameResults();
+const submit = document.querySelector('.btn-score');
+const nameIn = document.getElementById('name');
+const scoreIn = document.getElementById('score');
 
-const form = document.getElementById('formPart');
-const submitButton = form.querySelector('button[type="submit"]');
+window.onload = async () => {
+  display(await listScore());
+};
 
-submitButton.addEventListener('click', (event) => {
-  event.preventDefault();
+const refresh = document.querySelector('.btn-refresh');
+refresh.addEventListener('click', async () => {
+  const scoreList = await listScore();
+  display(scoreList);
+});
 
-  const nameInput = document.getElementById('name');
-  const scoreInput = document.getElementById('score');
+submit.addEventListener('click', async (e) => {
+  e.preventDefault();
+  const users = nameIn.value.trim();
+  const scores = scoreIn.value.trim();
 
-  const name = nameInput.value.trim();
-  const score = scoreInput.value.trim();
+  const newScore = {
+    user: users,
+    score: scores,
+  };
 
-  if (name && score) {
-    playerCollection.addPlayer(event);
-    appPlayerCollection.displayGameResults();
-    nameInput.value = '';
-    scoreInput.value = '';
-  } else {
-    appPlayerCollection.displayGameResults();
-  }
+  addScore(newScore);
+  nameIn.value = '';
+  scoreIn.value = '';
 });
