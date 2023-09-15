@@ -1,4 +1,3 @@
-/* eslint-disable import/prefer-default-export */
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/0h9fPW0Emu3RZUlzfxoW/scores';
 
 export const listScore = async () => {
