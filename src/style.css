@@ -1,3 +1,94 @@
 body {
-  background-color: bisque;
+  background-color: #393e46;
+}
+
+h1 {
+  text-align: center;
+  color: #ffe700;
+  padding: 20px 20px;
+  font-size: 2.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+article.fill-score {
+  display: block;
+}
+
+form#formPart {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button.btn-score {
+  width: 70px;
+  margin-left: 90px;
+  background-color: #fd0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  border: 1px solid #fd0;
+  border-radius: 10px;
+}
+
+button.btn-refresh {
+  background-color: #fd0;
+  border: 1px solid #fd0;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #ffe700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+}
+
+#results {
+  margin-top: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+#listItems > li:nth-child(even) {
+  background-color: #f5ebeb;
+  color: #5c5470;
+  padding: 3px;
+  padding-left: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#listItems > li:nth-child(odd) {
+  background-color: #b0757c;
+  color: white;
+  padding: 3px;
+  padding-left: 3px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+input {
+  height: 2rem;
+  background-color: #f67280;
+  border-radius: 5px;
+  font-size: 1.3rem;
+}
+
+input:focus {
+  box-shadow: 5px 5px #393e46;
+}
+
+input::placeholder {
+  color: white;
+  font-size: 1.3rem;
 }
