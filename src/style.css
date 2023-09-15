@@ -15,10 +15,12 @@ section.main {
   justify-content: space-evenly;
   gap: 200px;
 }
-div.info{
+
+div.info {
   display: flex;
   gap: 20px;
 }
+
 article.fill-score {
   display: block;
 }
