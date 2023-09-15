@@ -5,7 +5,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [� Getting Started ](#-getting-started-)
+  - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install ](#install-)
@@ -40,6 +40,8 @@ This project is mostly build in JavaScript.
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
     <li><a href="https://webpack.js.org/">Webpack</a></li>
     <li><a href="https://babeljs.io/">Babel</a></li>
+    <li><a href="https://www.postman.com/">Postman</a></li>
+    <li><a href="https://microverse.notion.site/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3">Leaderboard Api</a></li>
   </ul>
  </details> 
 
@@ -50,9 +52,13 @@ This project is mostly build in JavaScript.
 - ***Set up files and dependencies*** to configure Linters 📍
 - ***Create a featured branch*** to store all the changes before doing the merge to main branch 📍
 - **Create a .gitignore file** to store hidden files 📍
-- **Understand the usage of JavaScript: Events, DOM manipulation, syntax, and Objects to store data**📍
+- **Understand the usage of JavaScript: Events, DOM manipulation, syntax, and create Objects to store data**📍
 - **Understand the usage of ES6 JS Modules** how to **import and export** pieces of code to our main.js file 📍
-- **Understand how to install Webpack and Babel** and its importance.
+- **Understand how to install Webpack and Babel** and its importance.📍
+- **Understand the importance of Postman** and its importance.📍
+- **Understand how to use APIs**and**Get its identifier**📍
+- **Understand how to use Async and Await**📍
+- **Understand how to use arrow functions**📍
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
