@@ -13,8 +13,12 @@ h1 {
 section.main {
   display: flex;
   justify-content: space-evenly;
+  gap: 200px;
 }
-
+div.info{
+  display: flex;
+  gap: 20px;
+}
 article.fill-score {
   display: block;
 }
@@ -23,10 +27,12 @@ form#formPart {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  align-items: flex-end;
 }
 
 button.btn-score {
-  width: 70px;
+  width: 80px;
+  height: 43px;
   margin-left: 90px;
   background-color: #fd0;
   padding-top: 10px;
@@ -43,6 +49,9 @@ button.btn-refresh {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 10px;
+  width: 80px;
+  height: 43px;
+  margin-top: 21px;
 }
 
 h2 {
